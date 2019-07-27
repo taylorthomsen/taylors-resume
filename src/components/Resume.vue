@@ -1,11 +1,5 @@
 <template>
   <div class="resume">
-      <h1>Contact</h1>
-      <ul>
-          <il>Github</il>
-          <il>LinkedIn</il>
-          <il>Email</il>
-      </ul>
   </div>
 </template>
 

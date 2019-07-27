@@ -19,7 +19,8 @@ export default {
 <style>
 @font-face {
   font-family: 'AlleanaScript';
-  src: url('./assets/AlleanaScript.otf') format('otf');
+  src: url('./assets/AlleanaScript.ttf') format('ttf'),
+       url('./assets/AlleanaScript.otf') format('otf');
 }
 #app {
   font-family: 'PingFang SC', 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
