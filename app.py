@@ -8,13 +8,9 @@ app = Flask(__name__)
 def home():
 	return render_template('home.html')
 
-@app.route('/aboutme')
+@app.route('/about')
 def about():
 	return render_template('aboutme.html')
-
-@app.route('/contact')
-def description():
-	return render_template('contact.html')
 
 @app.route('/resume')
 def results():

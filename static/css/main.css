@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'ramland';
+
+  src: url('../fonts/RamlandClean.ttf');
+  src: url('../fonts/RamlandClean.otf') format('opentype'), url('../fonts/RamlandClean.ttf') format('truetype');
+}
+
+body {
+  color: #34495e;
+  font-family: PingFang SC,Microsoft Yahei,Helvetica Neue,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 10px 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #34495e;
+}
+
+.navItem {
+  margin: 10px 10px;
+}
+
+.cursiveMain {
+    font-family: ramland;
+    font-size: 48px;
+    align-content: center;
+}
+
+h1 {
+    font-family: ramland;
+    font-size: 40px;
+}
+
+.cursiveSecondary {
+    font-family: ramland;
+    font-size: 40px;
+    align-content: center;
+}
+
+.navbar {
+  margin-bottom: 50px;
+}
+
+.navItem:hover {
+  border-bottom: 2px solid #34495e;
+}
+
+.navItem.active {
+  border-bottom: 2px solid #34495e;
+}
+
+.contactList {
+  list-style-type: none;
+  align-content: center;
+  margin: 20px auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.contactItem {
+  margin: 10px;
+}
+
+.contactItem a:hover {
+  font-weight: bold;
+}
+
+.welcome {
+  margin: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row {
+  height: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
