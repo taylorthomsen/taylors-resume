@@ -64,16 +64,15 @@ h1 {
  /* overflow: hidden; */
  display: block;
  position: relative;
- padding-bottom: 200px; /* height of your footer */
+ padding-bottom: 100px; /* height of your footer */
 }
 
 .footer {
-  /* align-content: center; */
   position: absolute;
   margin: auto;
   bottom: 0;
   width: 100%;
-  height: 200px;
+  height: 100px;
 }
 
 .contactItem {
@@ -102,4 +101,42 @@ h1 {
   content: "";
   display: table;
   clear: both;
+}
+
+.resumeCol1 {
+  float: left;
+  width: 20%;
+}
+
+.resumeCol2 {
+  float: left;
+  width: 80%;
+}
+
+.workCol1 {
+  float: left;
+  font-style: italic;
+  margin-top: 0;
+  width: 70%;
+}
+
+.workCol2{
+  float: left;
+  text-align: right;
+  font-style: italic;
+  margin-top: 0;
+  width: 30%;
+}
+
+.resumePoint {
+  margin: 2px 0px;
+}
+
+.resumeSubHeading {
+  margin-bottom: 2px;
+}
+
+.skillsCol {
+  float: left;
+  width: 33%;
 }

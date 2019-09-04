@@ -5,47 +5,112 @@
 {% block content%}
   <div class="container">
       <center>
-          <div class='cursiveSecondary'>Resume</div>
+        <div class='cursiveSecondary'>Resume</div>
+        <hr/>
       </center>
       <div class='row'>
-        <div class='col-lg-6'>
-          <hr />
+        <div class='resumeCol1'>
           <h3>Objective</h3>
-            <p>To apply my data analysis skills, school work in quantitative research, and experience with emerging technologies to draw conclusions from data and inform U.S. policy decision makers.</p>
+        </div>
+        <div class='resumeCol2'>
+          <p>To apply my data analysis skills, school work in quantitative research, and experience with emerging technologies to draw conclusions from data and inform U.S. poh4cy decision makers.</p>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class='resumeCol1'>
+          <h3>Skills</h3>
+        </div>
+        <div class='resumeCol2'>
+          <div class="skillsCol">
+            <p>Python and R</p>
+            <p>SPSS and Stata</p>
+            <p>SQL</p>
           </div>
-          <div class='col-lg-6'>
-              <h3>Education</h3>
-              <div>
-        <ul>
-            <li>Johns Hopkins</li>
-            <li>University of Nebraska-Lincoln</li>
-        </ul>
+          <div class="skillsCol">
+            <p>Agile Development Process</p>
+            <p>Research Design</p>
+            <p>Quantitative Analysis</p>
+          </div>
+          <div class="skillsCol">
+            <p>Data Visualization</p>
+            <p>HTML, CSS, and JavaScript</p>
+            <p>Git</p>
+          </div>
         </div>
+      </div>
+
+      <div class="row">
+        <div class='resumeCol1'>
+          <h3>Education</h3>
         </div>
+        <div class='resumeCol2'>
+          <div class="row">
+            <div class="column">
+              <h4 class="resumeSubHeading">Johns Hopkins</h4>
+                <p class="resumePoint">Master of Science: Government Analytics</p>
+                <p class="resumePoint">Capstone Project on using sentiment analysis to measure media bias</p>
+                <p class="resumePoint">May 2018</p>
+            </div>
+            <div class="column">
+              <h4 class="resumeSubHeading">University of Nebraska-Lincoln</h4>
+                <p class="resumePoint">Bachelor of Arts: Psychology</p>
+                <p class="resumePoint">Minors: Mathematics, National Security Studies, and Political Science</p>
+                <p class="resumePoint">Graduated with Honors May 2015</p>
+            </div>
         </div>
-        <h3>Skills</h3>
+      </div>
+
+      <div class="row">
+        <div class='resumeCol1'>
+          <h3>Work Experience</h3>
+        </div>
+        <div class='resumeCol2'>
+          <h4 class="resumeSubHeading">QBE Insurance Digital Innovation Lab</h4>
+            <p class="workCol1">Developer, Full Time</p>
+            <p class="workCol2">November 2017 – Present</p>
+            <ul>
+              <li>Contribute to 3-5 week experiments with the goal of implementing emerging technologies within QBE</li>
+              <li>Lead experiment teams, help with defining goals, distributing work, and overcoming roadblocks</li>
+              <li>Conduct Agile ceremonies such as stand-up, retrospective, and iteration planning meetings</li>
+              <li>Assist with automated testing including unit tests and integration tests (Mocha, Chai)</li>
+              <li>Built a web interface to visualize vehicle telemetric data (Vue.js and Python)</li>
+              <li>Built a single page web application to draw geospatial boundaries on areas affected by catastrophic events (Vue.js)</li>
+              <li>Built an FAQ chatbot for QBE internal website (Azure Bot Framework, Live Engage)</li>
+              <li>Built a custom chatbot window for QBE customer site (Azure Bot Framework, Live Engage, Vue.js)</li>
+              <li>Applied machine learning to predict Standard Industrial Classification business codes (Python)</li>
+            </ul>
+            <p class="workCol1">Digital Innovation Lab Intern, Full Time</p>
+            <p class="workCol2">March 2017 – November 2017</p>
+            <ul>
+              <li>Built a single page web application to act as a website displaying the Innovation Lab’s experiments (Vue.js)</li>
+              <li>Programmatically analyzed satellite imagery to detect natural disaster damage (Python)</li>
+              <li>Developed an application to collect vehicle telemetric data from an OBD-II device (Python)</li>
+            </ul>
+          <h4 class="resumeSubHeading">Epic Systems Corporation</h4>
+            <p class="workCol1">Software Tester and Special Update Point Person, Full Time</p>
+            <p class="workCol2">March 2016 – March 2017</p>
+            <ul>
+              <li>Wrote and executed detailed user acceptance test plans to ensure Epic software for outpatient clinics met the highest standards</li>
+              <li>Collaborated with software developers to get critical software fixes to hospital organizations efficiently</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class='resumeCol1'>
+          <h3>Research Experience</h3>
+        </div>
+        <div class='resumeCol2'>
+          <h4 class="resumeSubHeading">Johns Hopkins Capstone Project on using sentiment analysis to measure media bias</h4>
           <ul>
-            <li>Python and R</li>
-            <li>SPSS and Stata</li>
-            <li>SQL</li>
-            <li>Agile Development Process</li>
-            <li>Research Design</li>
-            <li>Quantitative Analysis</li>
-            <li>Data Visualization</li>
-            <li>HTML, CSS, and JavaScript</li>
-            <li>Git</li>
+            <li>Conducted extensive research on previous media bias studies</li>
+            <li>Retrieved tweets from the 2016 presidential election and applied a sentiment analysis model (Python)</li>
+            <li>Utilized difference of means statistical tests to compare sentiment scores between text samples</li>
           </ul>
-      <h3>Work Experience</h3>
-        <ul>
-          <li>QBE Insurance Digital Innovation Lab</li>
-          <li>Epic Systems Corporation</li>
-        </ul>
-      <h3>Research Experience</h3>
-        <ul>
-            <li>Johns Hopkins Capstone Project on using sentiment analysis to measure media bias</li>
-            <li>Independent research study on the Effect of Democracy on State Terror</li>
-            <li>Independent research study on Globalization and Terrorism</li>
-        </ul>
+          <h4 class="resumeSubHeading">Independent research study on the Effect of Democracy on State Terror</h4>
+          <h4 class="resumeSubHeading">Independent research study on Globalization and Terrorism</h4>
+        </div>
+      </div>
   <div>
 {% endblock %}
