@@ -51,6 +51,12 @@ h1 {
   border-bottom: 2px solid #34495e;
 }
 
+.portrait {
+  margin: 10px;
+  width: 90%;
+  height: auto;
+}
+
 .contactList {
   list-style-type: none;
   margin: 20px auto;
@@ -117,7 +123,7 @@ h1 {
   float: left;
   font-style: italic;
   margin-top: 0;
-  width: 70%;
+  width: 50%;
 }
 
 .workCol2{
@@ -125,7 +131,7 @@ h1 {
   text-align: right;
   font-style: italic;
   margin-top: 0;
-  width: 30%;
+  width: 50%;
 }
 
 .resumePoint {
